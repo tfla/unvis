@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Unv.is",
-  "version": "1.0",
+  "version": "1.1",
   "default_locale": "en",
   "description": "Adds a context menu item to open links through https://unv.is.",
 
@@ -10,7 +10,7 @@
     "48": "icons/icon-48.png"
   },
 
-  "permissions": ["contextMenus"],
+  "permissions": ["contextMenus", "tabs"],
 
   "background": {
    "scripts": ["background.js"]

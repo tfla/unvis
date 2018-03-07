@@ -1,8 +1,7 @@
 browser.contextMenus.create({
   id: "unvis",
   type: "normal",
-  title: browser.i18n.getMessage("contextMenuItemSelectionLogger"),
-  //title: browser.i18n.getMessage("openLinkWithUnvis"),
+  title: browser.i18n.getMessage("openLinkWithUnvis"),
   contexts: ["link"]
 } );
 

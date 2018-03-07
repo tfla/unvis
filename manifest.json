@@ -12,12 +12,6 @@
 
   "permissions": ["contextMenus"],
 
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["unvis.js"]
-    }
-  ],
   "background": {
    "scripts": ["background.js"]
   }
